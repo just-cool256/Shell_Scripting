@@ -2,6 +2,6 @@
 
 cat users.dat | while read -r line
 do
-        echo $line
+        printf '%s\n' "$line"
         echo
 done
