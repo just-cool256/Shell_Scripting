@@ -17,7 +17,7 @@ total_length=$(echo "$words" | awk '{s+=length($0)}END{prints}')
 
 if [ "$word_count" -eq 0 ]
 then
-	echo "No words found in the file"
+	echo "No word found in the file"
 	exit 1
 fi
 
